@@ -584,6 +584,7 @@
         </VeterancyLevelArray>
         <SharedXPRadius index="Kills" value="400"/>
         <SharedXPFraction index="Kills" value="1"/>
+        <ShareFilters index="Kills" value="-;Neutral,Enemy,Hallucination"/>
     </CBehaviorVeterancy>
     <CBehaviorBuff id="BlazeofGlory">
         <InfoFlags index="Hidden" value="1"/>
@@ -3739,6 +3740,7 @@
         </VeterancyLevelArray>
         <SharedXPRadius index="Kills" value="400"/>
         <SharedXPFraction index="Kills" value="1"/>
+        <ShareFilters index="Kills" value="-;Neutral,Enemy,Hallucination"/>
     </CBehaviorVeterancy>
     <CBehaviorBuff id="XPShareSuppression">
         <InfoFlags index="Hidden" value="1"/>
@@ -4995,6 +4997,7 @@
         </VeterancyLevelArray>
         <SharedXPRadius index="Kills" value="400"/>
         <SharedXPFraction index="Kills" value="1"/>
+        <ShareFilters index="Kills" value="-;Neutral,Enemy,Hallucination"/>
     </CBehaviorVeterancy>
     <CBehaviorBuff id="BlackoutLevel1">
         <Alignment value="Positive"/>
