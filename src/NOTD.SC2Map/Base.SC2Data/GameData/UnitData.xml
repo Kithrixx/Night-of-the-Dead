@@ -367,7 +367,7 @@
     <CUnit id="Baneling">
         <CostResource index="Minerals" value="0"/>
         <CostResource index="Vespene" value="0"/>
-        <KillXP value="12"/>
+        <KillXP value="15"/>
         <TacticalAIThink value=""/>
         <AbilArray index="5" removed="1"/>
         <AbilArray index="6" removed="1"/>
@@ -384,7 +384,7 @@
             <LayoutButtons Face="Move" Type="AbilCmd" AbilCmd="move,Move" Row="0" Column="0"/>
             <LayoutButtons Face="Stop" Type="AbilCmd" AbilCmd="stop,Stop" Row="0" Column="1"/>
         </CardLayouts>
-        <KillXP value="12"/>
+        <KillXP value="15"/>
         <CostResource index="Minerals" value="0"/>
         <CostResource index="Vespene" value="0"/>
         <BehaviorArray index="1" Link="DifficultyScalingHP"/>
@@ -481,7 +481,7 @@
         <AttackTargetPriority value="9"/>
         <DamageDealtXP value="1"/>
         <DamageTakenXP value="1"/>
-        <KillXP value="8"/>
+        <KillXP value="10"/>
         <AbilArray Link="BlindlingExplode"/>
         <AbilArray Link="UnburrowBlindling"/>
         <AbilArray Link="stop"/>
@@ -537,7 +537,7 @@
         <AttackTargetPriority value="20"/>
         <DamageDealtXP value="1"/>
         <DamageTakenXP value="1"/>
-        <KillXP value="12"/>
+        <KillXP value="15"/>
         <AbilArray Link="Explode"/>
         <AbilArray Link="BurrowBanelingUp"/>
         <AbilArray Link="BurrowBanelingDown"/>
@@ -3456,6 +3456,7 @@
         <StationaryTurningRate value="199.8632"/>
         <TurningRate value="199.8632"/>
         <FlagArray index="AICaster" value="1"/>
+        <KillXP value="35"/>
     </CUnit>
     <CUnit id="Shiva" parent="ITEM">
         <Race value="Terr"/>
@@ -4166,7 +4167,6 @@
         <StationaryTurningRate value="299.8828"/>
         <TurningRate value="299.8828"/>
         <TacticalAIThink value="AIThinkBaneling"/>
-        <KillXP value="15"/>
     </CUnit>
     <CUnit id="Devourer2">
         <DeathRevealRadius value="3"/>
@@ -4396,7 +4396,7 @@
         <AttackTargetPriority value="20"/>
         <DamageDealtXP value="1"/>
         <DamageTakenXP value="1"/>
-        <KillXP value="8"/>
+        <KillXP value="12"/>
         <AbilArray Link="stop"/>
         <AbilArray Link="move"/>
         <AbilArray Link="UnburrowImmortal"/>
@@ -5607,7 +5607,7 @@
         <LifeMax value="900"/>
         <LifeArmor value="5"/>
         <LifeRegenRate value="2"/>
-        <KillXP value="45"/>
+        <KillXP value="50"/>
         <BehaviorArray index="0" Link="DifficultyScalingHP"/>
         <BehaviorArray Link="Frenzy"/>
         <Sight value="1"/>
@@ -5658,6 +5658,7 @@
         <EnergyStart value="100"/>
         <EnergyMax value="100"/>
         <BehaviorArray Link="DifficultyScalingHP"/>
+        <KillXP value="35"/>
     </CUnit>
     <CUnit id="SeekerBurrowed">
         <DeathRevealRadius value="0"/>
@@ -6328,7 +6329,7 @@
         <StationaryTurningRate value="299.8828"/>
         <TurningRate value="299.8828"/>
         <TacticalAIThink value="AIThinkBaneling"/>
-        <KillXP value="15"/>
+        <KillXP value="20"/>
     </CUnit>
     <CUnit id="Gunship">
         <Race value="Terr"/>
@@ -6378,7 +6379,7 @@
         <Speed value="2.8007"/>
         <AttackTargetPriority value="9"/>
         <SpeedMultiplierCreep value="1.7"/>
-        <KillXP value="8"/>
+        <KillXP value="10"/>
         <Food value="0"/>
         <EquipmentArray index="0" Weapon="BlindlingBurst"/>
         <StationaryTurningRate value="349.9804"/>
@@ -7614,7 +7615,7 @@
         <AttackTargetPriority value="20"/>
         <DamageDealtXP value="1"/>
         <DamageTakenXP value="1"/>
-        <KillXP value="40"/>
+        <KillXP value="50"/>
         <AbilArray Link="stop"/>
         <AbilArray Link="move"/>
         <AbilArray Link="UnburrowInfestor"/>
@@ -7781,6 +7782,7 @@
         <TurningRate value="299.8828"/>
         <SubgroupAlias value="Colonist2"/>
         <SelectAlias value="Colonist2"/>
+        <KillXP value="5"/>
     </CUnit>
     <CUnit id="ApolloBioDome" parent="Biodome">
         <Name value="Unit/Name/ApolloBioDome"/>
@@ -7823,6 +7825,7 @@
         <LifeMax value="32"/>
         <SelectAlias value="Colonist2"/>
         <SubgroupAlias value="Colonist2"/>
+        <KillXP value="5"/>
     </CUnit>
     <CUnit id="CombatMobilityAugment" parent="ITEM">
         <Race value="Terr"/>
@@ -9234,7 +9237,7 @@
         <AttackTargetPriority value="20"/>
         <DamageDealtXP value="1"/>
         <DamageTakenXP value="1"/>
-        <KillXP value="40"/>
+        <KillXP value="50"/>
         <AbilArray Link="stop"/>
         <AbilArray Link="move"/>
         <AbilArray Link="BurrowInfestor"/>
@@ -9365,7 +9368,7 @@
             <LayoutButtons index="5" Face="BurrowDown" Type="AbilCmd" AbilCmd="BurrowInfestedMarine,Execute" Row="1" Column="4"/>
         </CardLayouts>
         <SpeedMultiplierCreep value="1.1"/>
-        <KillXP value="12"/>
+        <KillXP value="15"/>
         <Radius value="0.25"/>
         <InnerRadius value="0.25"/>
         <BehaviorArray Link="SpawnCreeponDeath"/>
@@ -9895,7 +9898,7 @@
         <SeparationRadius value="0"/>
         <MinimapRadius value="0"/>
         <EditorCategories value="ObjectType:Unit,ObjectFamily:Campaign"/>
-        <KillXP value="5"/>
+        <KillXP value="10"/>
         <PlaneArray index="Ground" value="1"/>
         <TacticalAI value=""/>
         <LifeArmorName value="Unit/LifeArmorName/ZergGroundArmor"/>
@@ -9928,7 +9931,7 @@
         <AttackTargetPriority value="20"/>
         <DamageDealtXP value="1"/>
         <DamageTakenXP value="1"/>
-        <KillXP value="8"/>
+        <KillXP value="12"/>
         <AbilArray Link="stop"/>
         <AbilArray Link="attack"/>
         <AbilArray Link="move"/>
@@ -9985,7 +9988,7 @@
         <AttackTargetPriority value="20"/>
         <DamageDealtXP value="1"/>
         <DamageTakenXP value="1"/>
-        <KillXP value="10"/>
+        <KillXP value="12"/>
         <AbilArray Link="stop"/>
         <AbilArray Link="move"/>
         <AbilArray Link="UnburrowHulk"/>
@@ -10027,7 +10030,7 @@
         <StationaryTurningRate value="0"/>
         <TurningRate value="0"/>
         <AttackTargetPriority value="1"/>
-        <KillXP value="5"/>
+        <KillXP value="10"/>
         <BehaviorArray Link="MakeCreep5x5NOTD"/>
         <BehaviorArray Link="DifficultyScalingHP"/>
         <SeparationRadius value="0"/>
@@ -10061,7 +10064,7 @@
         <AttackTargetPriority value="20"/>
         <DamageDealtXP value="1"/>
         <DamageTakenXP value="1"/>
-        <KillXP value="5"/>
+        <KillXP value="6"/>
         <AbilArray Link="stop"/>
         <AbilArray Link="attack"/>
         <AbilArray Link="move"/>
@@ -10115,7 +10118,7 @@
         <AttackTargetPriority value="20"/>
         <DamageDealtXP value="1"/>
         <DamageTakenXP value="1"/>
-        <KillXP value="10"/>
+        <KillXP value="12"/>
         <AbilArray Link="stop"/>
         <AbilArray Link="attack"/>
         <AbilArray Link="move"/>
@@ -10171,7 +10174,7 @@
         <AttackTargetPriority value="20"/>
         <DamageDealtXP value="1"/>
         <DamageTakenXP value="1"/>
-        <KillXP value="5"/>
+        <KillXP value="6"/>
         <AbilArray Link="stop"/>
         <AbilArray Link="move"/>
         <AbilArray Link="UnburrowZombieLevel1"/>
@@ -10223,7 +10226,7 @@
         <AttackTargetPriority value="20"/>
         <DamageDealtXP value="1"/>
         <DamageTakenXP value="1"/>
-        <KillXP value="6"/>
+        <KillXP value="7"/>
         <AbilArray Link="stop"/>
         <AbilArray Link="attack"/>
         <AbilArray Link="move"/>
@@ -10969,7 +10972,7 @@
         <AttackTargetPriority value="20"/>
         <DamageDealtXP value="1"/>
         <DamageTakenXP value="1"/>
-        <KillXP value="6"/>
+        <KillXP value="7"/>
         <AbilArray Link="stop"/>
         <AbilArray Link="move"/>
         <AbilArray Link="UnburrowZombieLevel2"/>
@@ -11444,7 +11447,7 @@
         <Sight value="8"/>
         <LifeArmor value="5"/>
         <Food value="-3"/>
-        <KillXP value="45"/>
+        <KillXP value="50"/>
         <AbilArray Link="Charge"/>
         <LifeStart value="900"/>
         <LifeMax value="900"/>
@@ -11759,7 +11762,7 @@
     </CUnit>
     <CUnit id="Zergling">
         <Food value="0"/>
-        <KillXP value="2"/>
+        <KillXP value="3"/>
         <DeathRevealRadius value="0"/>
         <LifeStart value="32"/>
         <LifeMax value="32"/>
@@ -11779,7 +11782,7 @@
     <CUnit id="ZerglingBurrowed">
         <Sight value="15"/>
         <Food value="0"/>
-        <KillXP value="2"/>
+        <KillXP value="3"/>
         <DeathTime value="3"/>
         <DeathRevealRadius value="0"/>
         <LifeStart value="32"/>
