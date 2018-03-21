@@ -5690,7 +5690,7 @@
         <AttackTargetPriority value="20"/>
         <DamageDealtXP value="1"/>
         <DamageTakenXP value="1"/>
-        <KillXP value="10"/>
+        <KillXP value="12"/>
         <AbilArray Link="stop"/>
         <AbilArray Link="move"/>
         <AbilArray Link="UnburrowSeeker"/>
@@ -7782,7 +7782,7 @@
         <TurningRate value="299.8828"/>
         <SubgroupAlias value="Colonist2"/>
         <SelectAlias value="Colonist2"/>
-        <KillXP value="5"/>
+        <KillXP value="10"/>
     </CUnit>
     <CUnit id="ApolloBioDome" parent="Biodome">
         <Name value="Unit/Name/ApolloBioDome"/>
@@ -7825,7 +7825,7 @@
         <LifeMax value="32"/>
         <SelectAlias value="Colonist2"/>
         <SubgroupAlias value="Colonist2"/>
-        <KillXP value="5"/>
+        <KillXP value="10"/>
     </CUnit>
     <CUnit id="CombatMobilityAugment" parent="ITEM">
         <Race value="Terr"/>
@@ -9850,7 +9850,7 @@
         <AttackTargetPriority value="20"/>
         <DamageDealtXP value="1"/>
         <DamageTakenXP value="1"/>
-        <KillXP value="10"/>
+        <KillXP value="12"/>
         <AbilArray Link="stop"/>
         <AbilArray Link="attack"/>
         <AbilArray Link="move"/>

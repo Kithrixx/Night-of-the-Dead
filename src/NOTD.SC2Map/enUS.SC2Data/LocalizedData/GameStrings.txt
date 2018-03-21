@@ -5442,6 +5442,7 @@ Unit/LifeArmorName/TerranInfantryArmor=UGC Infantry Armor
 Unit/LifeArmorName/ZergAirArmor=
 Unit/LifeArmorName/ZergAthenaArmor=Carapace
 Unit/LifeArmorName/ZergBuildingArmor=
+Unit/LifeArmorName/ZergGroundArmor=Carapace
 Unit/Name/APAmmo=<c val="80FF80">AP Ammo</c>
 Unit/Name/APAmmoHighlightTooltip=<c val="80FF80">AP Ammo</c>
 Unit/Name/AcidMissile=Acid Missile
